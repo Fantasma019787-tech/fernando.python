@@ -1,12 +1,19 @@
-vocales=0
-consonantes=0
-nombre=input("ingrese su nombre ")
-for i in nombre:
-    if i in "aeiouAEIOU":
-       vocales=vocales+1
-    elif i==" ":
-       ""
-    else:
-     consonantes=consonantes+1
-print("el numero de vocales de su nombre es:", vocales)
-print("el numero de consonantes de su nombre es:", consonantes)
+#clave="SHAZAM"
+#nom=input("ingresa la clave:")
+#if nom.upper () == clave:
+#   print ("clave correcta")
+#else:
+#   print("clave incorrecta")
+
+# print("ingrese su nombre")
+# nombre=input
+
+#nombre=print("usuario correcto")
+#if 4<=len(nombre)<=10:
+#else :
+#    print("usuario fuera de rango")
+
+
+#pin=int(input("ingrese un numero de 4 digios"))
+
+
