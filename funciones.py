@@ -42,18 +42,64 @@ import time
 # else:
 #     print("el jugador 3 llego más lejos")
 
-turno=1
-if turno%2==0:
-    print("turno uno")
-else:
-    print("turno dos")
+# turno=1
+# if turno%2==0:
+#     print("turno uno")
+# else:
+#     print("turno dos")
 
-alacran=100
-subcerro=100
-alacran=random.randint(15,45)
-subcerro=random.randint(15,45)
-time.sleep(1)
-print(f"alacran hizo {alacran} daño")
-print(f"subcerro hizo {subcerro} daño")
+# alacran=100
+# subcerro=100
+# alacran=random.randint(15,45)
+# subcerro=random.randint(15,45)
+# time.sleep(1)
+# print(f"alacran hizo {alacran} daño")
+# print(f"subcerro hizo {subcerro} daño")
 
+
+# num=random.randint(1,9)
+
+# while abs(-3)!=num:
+#     print(num)
+#     time.sleep(1)
+#     num=random.randint(1,9)
+
+
+# n1=int(input("ingrese el valor de limite inferior"))
+# n2=int(input("ingrese el valor de limite superior"))
+# num=random.randint(n1,n2)
+# if n1>n2:
+#     print(f"{n1} es mayor a {n2} el numero es {num}")
+# else:
+#     print("rango fallido")
+
+# while n1>n2:
+#     print("el limite superior debe ser mayor")
+#     n2=int(input("ingrese el valor de limite superior"))
+# num=random.randint(n1,n2)
+# print(num)
+
+
+
+# lata=0
+# plancha=0
+# pez=random.randint(10,20)
+# for i in range(pez):
+#     peso=random.randint(400,3000)
+#     if peso<=800 :
+#         print("va a la lata")
+#         lata+=1
+#     elif peso>=801 and peso<=3000:
+#         print("huele a quemado?")
+#         plancha+=1
+# print(f"hay un total de {lata} latas, y un total de {plancha} peces en la plancha")
+
+
+# exportacion=["nacional", "internacional"]
+# latas=0
+# peso=int(input("ingrese el peso del producto"))
+# for i in range(latas):
+#     sodio=random.randint(1,100)
+#     nacion=random.choice(exportacion)
+#     peso=random.randint(100,1500)
 
