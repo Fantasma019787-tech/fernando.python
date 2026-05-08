@@ -163,17 +163,144 @@ import random
 #         print(f"la puntuacion de {j2} es {dado2}")
 #         print(f"la puntuacion de {j1} es {dado1}")
 
-alacran=100
-subcerro=100
-turno=1
-while alacran>0 and subcerro>0:
-    print(f" estamos en el turno {turno}")
-    golpe1=random.randint(7,15)
-    golpe2=random.randint(7,15)
-    subcerro -=golpe1
-    alacran -=golpe2
-    turno+=1
-    if alacran>subcerro:
-        print("alacran gana el mortal kumbias")
-    else:
-        print("subcerro gana el mortal kumbias")
+# alacran=100
+# subcerro=100
+# turno=1
+# while alacran>0 and subcerro>0:
+#     print(f" estamos en el turno {turno}")
+#     golpe1=random.randint(7,15)
+#     golpe2=random.randint(7,15)
+#     subcerro -=golpe1
+#     alacran -=golpe2
+#     turno+=1
+#     if alacran>subcerro:
+#         print("alacran gana el mortal kumbias")
+#     else:
+#         print("subcerro gana el mortal kumbias")
+
+
+# num=int(input("ingrese un numero: "))
+# if num>=1:
+#     print("el numero es positivo")
+# elif num<=-1:
+#     print("el numero es negativo")
+# else:
+#     print("el numero es cero")
+
+# nombre=input("ingrese su nombre: ")
+# print(nombre.upper())
+# print(nombre.capitalize())
+# print(nombre.lower())
+
+# num=int(input("ingrese un numero: "))
+# for i in range(1,11):
+#     print(f"{num} x {i} = {num*i}")
+
+# num=random.randint(1,10)
+# resp=int(input("cual es el numero?"))
+# while resp!=num: 
+#     resp=int(input("cual es el numero?"))
+#     print("numero incorrecto intente otra vez")
+# print("numero correcto")
+
+# palabra=input("escriba una palabra: ")
+# contador=0
+# for letra in palabra:
+#     print(letra)
+#     contador+=1
+# print(f"la palabra tiene {contador} letras. ")
+
+# word=input("ingrese una palabra: ")
+# cons=0
+# voc=0
+# for letra in word:
+#    if letra in "AEIOUaeiou":
+#       voc+=1
+#    else:
+#       cons+=1
+# print(f"el total de vocales en su palabra son {voc} y el numero de consonantes en su palabra son {cons}")
+
+# contra = "Duoc.2024"
+# intento=0
+# while intento  <=3 :
+#     code=input("ingrese la contraseña: ")
+#     if code==contra:
+#         print("acceso permitido")
+#         break
+#     else: 
+#         intento+=1
+#         contra=input("ingrese la contraseña")
+ 
+
+# def suma(): 
+#        num1=int(input("ingrese un numero: "))
+#        num2=int(input("ingrese otro numero: "))  
+#        suma=num1+num2
+#        print(f"{num1} + {num2} = {num1+num2}")
+
+
+# def resta():
+#       num1=int(input("ingrese un numero: "))
+#       num2=int(input("ingrese otro numero: "))
+#       resta=num1-num2
+#       print(f"{num1} - {num2} = {num1-num2}")
+
+
+# def multi():
+#       num1=int(input("ingrese un numero: "))
+#       num2=int(input("ingrese otro numero: "))
+#       multi=num1*num2
+#       print(f"{num1} x {num2} = {num1*num2}")
+
+
+# def div():
+#       num1=int(input("ingrese un numero: "))
+#       num2=int(input("ingrese otro numero: "))
+#       div=num1/num2
+#       print(f"{num1} / {num2} = {num1/num2}")
+      
+
+
+# def poten():
+#       num1=int(input("ingrese un numero: "))
+#       num2=int(input("ingrese otro numero: "))
+#       poten=num1**num2
+#       print(f"{num1} /X {num2} = {num1**num2}")
+ #calculadora
+# op=int(input("operacion "))
+# match op :
+#       case 1:
+#             suma()
+#       case 2:
+#             resta()
+#       case 3:
+#             multi()
+#       case 4:
+#             div()
+#       case 5:
+#             poten()
+#       case _:
+#             print("opcion invalida")
+
+
+
+
+
+# intentos=0
+# nom=input("ingrese su nombre: ")
+# print(f"{nom.capitalize()} tienes 3 intentos, usalos con sabiduria")
+# n1=random.randint(1,7)
+# while intentos<3:
+#    numero=int(input("ingrese un numero: "))
+#    if numero!=n1:
+#       print("numero incorrecto")
+#       intentos+=1
+#    else:
+#       print(f"felicidades {nom.capitalize()} colocaste el numero correcto")
+
+
+
+a=-10
+b=4
+abs((a-b))
+
