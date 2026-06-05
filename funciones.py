@@ -103,3 +103,86 @@ import time
 #     nacion=random.choice(exportacion)
 #     peso=random.randint(100,1500)
 
+# nombres=["Elver","Adolf","Jefri"]
+# apellidos=["Galarga","Hitler","Einstein"]
+
+# no=input("ingrese un nombre: ")
+# ap=input("ingrese un apellido: ")
+# nombres.append(no)
+# apellidos.append(ap)
+
+# for n in range(len(nombres)):
+#     print(nombres[n], apellidos[n])
+
+# juguetes=["yo-yo","tetris"]
+# def mostrar():
+#     c=1
+#     for j in juguetes:
+#       print(c,".-",j)
+#     c+=1
+#     print("-"*30)
+
+
+# def actualizar():
+#     mostrar()
+#     print("Que juguete desea actualizar: ")
+#     actu=int(input())
+#     nj=input("ingrese un nuevo juguete: ")
+#     juguetes[actu-1]=nj
+
+# def eliminar():
+#     mostrar()
+#     eliminar=int(input("que juguete desea eliminar"))
+#     juguetes.pop(eliminar-1)
+#     print("juguete eliminado")
+
+# def agregar():
+#     ju=input("ingrese un juguete")
+#     juguetes.append(ju)
+
+# def menu():
+#     print("1.- Agregar juguete")
+#     print("2.- Eliminar juguete")
+#     print("3.- Actualizar juguete")
+#     print("4.- Mostrar juguetes")
+#     print("5.- Salir")
+# while True:
+#     menu()
+#     try:
+#         op=int(input("seleccione una opcion: "))
+#         match op:
+#             case 1:
+#                 agregar()
+#             case 2:
+#                 eliminar()
+#             case 3:
+#                 actualizar()
+#             case 4:
+#                 mostrar()
+#             case 5:
+#                 print("saliendo")
+#                 break
+#             case _:
+#                 print("opcion invalida")
+#     except ValueError as E:
+#         print("debes ingresar numeros enteros")
+#         print(E)
+
+
+
+numeros=input("ingrese numeros separados por espacios")
+listanumeros=numeros.split()
+listanumerosInt=[]
+pares=[]
+impares=[]
+
+for n in listanumeros:
+    listanumerosInt.append(int(n))
+    print(n)
+for hh in listanumerosInt:
+    if hh%2==0:
+        pares.append(hh)
+    else:
+        impares.append(hh)
+print(f"los numeros pares son {pares}")
+print(f"los numeros impares son {impares}")
