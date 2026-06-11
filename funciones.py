@@ -103,16 +103,16 @@ import time
 #     nacion=random.choice(exportacion)
 #     peso=random.randint(100,1500)
 
-# nombres=["Elver","Adolf","Jefri"]
-# apellidos=["Galarga","Hitler","Einstein"]
+nombres=["Elver","Adolf","Jefri"]
+apellidos=["Galarga","Hitler","Einstein"]
 
-# no=input("ingrese un nombre: ")
-# ap=input("ingrese un apellido: ")
-# nombres.append(no)
-# apellidos.append(ap)
+no=input("ingrese un nombre: ")
+ap=input("ingrese un apellido: ")
+nombres.append(no)
+apellidos.append(ap)
 
-# for n in range(len(nombres)):
-#     print(nombres[n], apellidos[n])
+for n in range(len(nombres)):
+    print(nombres[n], apellidos[n])
 
 # juguetes=["yo-yo","tetris"]
 # def mostrar():
@@ -170,19 +170,20 @@ import time
 
 
 
-numeros=input("ingrese numeros separados por espacios")
-listanumeros=numeros.split()
-listanumerosInt=[]
-pares=[]
-impares=[]
+# numeros=input("ingrese numeros separados por espacios: ")
+# listanumeros=numeros.split()
+# listanumerosInt=[]
+# pares=[]
+# impares=[]
 
-for n in listanumeros:
-    listanumerosInt.append(int(n))
-    print(n)
-for hh in listanumerosInt:
-    if hh%2==0:
-        pares.append(hh)
-    else:
-        impares.append(hh)
-print(f"los numeros pares son {pares}")
-print(f"los numeros impares son {impares}")
+# for n in listanumeros:
+#     listanumerosInt.append(int(n))
+#     print(n)
+# for hh in listanumerosInt:
+#     if hh%2==0:
+#         pares.append(hh)
+#     else:
+#         impares.append(hh)
+# print(f"los numeros pares son {pares}")
+# print(f"los numeros impares son {impares}")
+

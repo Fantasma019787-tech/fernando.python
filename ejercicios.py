@@ -299,8 +299,21 @@ import random
 #       print(f"felicidades {nom.capitalize()} colocaste el numero correcto")
 
 
+# a=-10
+# b=4
+# abs((a-b))
 
-a=-10
-b=4
-abs((a-b))
 
+# total=0
+
+# productodicc={
+#     1:{"nombre": "maracuya", "precio": 3000},
+#     2:{"nombre": "pera", "precio": 1500},
+#     3:{"nombre": "cebolla", "precio": 3500}
+# }
+# productodicc[4]={"nombre": "piña", "precio": 3000}
+# print(productodicc.keys())
+# print(productodicc.values())
+# print(productodicc.items())
+
+carrito
