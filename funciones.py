@@ -103,16 +103,16 @@ import time
 #     nacion=random.choice(exportacion)
 #     peso=random.randint(100,1500)
 
-nombres=["Elver","Adolf","Jefri"]
-apellidos=["Galarga","Hitler","Einstein"]
+# nombres=["Elver","Adolf","Jefri"]
+# apellidos=["Galarga","Hitler","Einstein"]
 
-no=input("ingrese un nombre: ")
-ap=input("ingrese un apellido: ")
-nombres.append(no)
-apellidos.append(ap)
+# no=input("ingrese un nombre: ")
+# ap=input("ingrese un apellido: ")
+# nombres.append(no)
+# apellidos.append(ap)
 
-for n in range(len(nombres)):
-    print(nombres[n], apellidos[n])
+# for n in range(len(nombres)):
+#     print(nombres[n], apellidos[n])
 
 # juguetes=["yo-yo","tetris"]
 # def mostrar():
@@ -187,3 +187,52 @@ for n in range(len(nombres)):
 # print(f"los numeros pares son {pares}")
 # print(f"los numeros impares son {impares}")
 
+#DICCIONARIOS:
+total=0
+productodicc={
+    1:{"nombre": "maracuya", "precio": 3000},
+    2:{"nombre": "pera", "precio": 1500},
+    3:{"nombre": "cebolla", "precio": 3500}
+}
+carrito=[]
+productodicc[4]={"nombre": "piña", "precio": 3500}
+def agregarp():
+    print("Cual es el nombre del producto? ")
+    nombre=input()
+    print("cual es el precio? ")
+
+
+def comprar():
+    while True
+        mostrap()
+        try:
+            com=int(input("que producto va a comprar?(0 para salir ) "))
+            if com==0:
+                break
+            if com in productodicc.keys():
+                carrito.append(productodicc[com])
+        except Exception as e:
+            print("Error:"),e
+            
+
+def crearboleta():
+    total=0
+    print("-"*30, "0", "-"*30)
+    for prod in carrito:
+        print(f"{prod["nombre"]}__${prod["precio"]}")
+        print(f"el total neto es {total} y el IVA es {*0,19}")
+        print("-"*30, "0", "-"*30)
+
+print(productodicc.keys())
+print(productodicc.values())
+print(productodicc.items())
+
+# while True:
+#     try:
+#         print("")
+#         print("1.- Agregar producto")
+#         print("2.- ")
+#         print("3.- ")
+#         print("4.- ")
+#         print("5.- Comprar")
+#         print("6.- ")

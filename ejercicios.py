@@ -316,4 +316,3 @@ import random
 # print(productodicc.values())
 # print(productodicc.items())
 
-carrito
