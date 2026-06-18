@@ -1,8 +1,17 @@
-juegos={
-    1:{"nombre": "Minecraft", "Dueño": "Mojang", "año": 2011},
-    2:{"nombre": "pokemon rojo fuego", "Dueño": "nintendo", "año":2004},
-    3:{"nombre": "Terraria", "Dueño": "Re-logic", "año": 2011},
-    4:{"nombre": "Plantas VS Zombies", "Dueño": "Electronic Arts (EA)", "año": 2009},
-    5:{"nombre": "Hollow Knight", "Dueño": "Team Cherry", "año": 2017},
-    6:{"nombre": "God of war", "Dueño": "Santa Monica studios", "año": 2005}
-}
+
+nombre=input("ingrese su nombre")
+prev=input("ingrese la prevencion del paciente nuevo: ")
+temp=float(input("ingrese la temperatura del nuevopaciente"))
+pacientes.append({"nombre": nombre, "prevencion": prev,
+                  "temperatura": temp, "grave": validTemp(temp)})
+print(pacientes)
+while True:
+    try:
+        print("1.- agregar paciente")
+        print("2.- quitar paciente")
+        print("3.- mostrar pacientes")
+        print("4.- eliminar paciente")
+
+
+
+        opcion=int(input("ingrese la opcion"))
